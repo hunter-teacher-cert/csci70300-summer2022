@@ -77,7 +77,7 @@ public class SortSearch{
 
 
     /**
-       Implement the insertion sort algorithm by sorting the ArrayList data in place.
+       Implement the selection sort algorithm by sorting the ArrayList data in place.
        
 
     */
