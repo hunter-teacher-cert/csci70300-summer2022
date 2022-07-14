@@ -2,27 +2,27 @@ import java.io.*;
 import java.util.*;
 
 /**
-  For all attempted methods, make sensible decisions for error and
-  edge cases (such as indexing out of bounds).
+For all attempted methods, make sensible decisions for error and
+edge cases (such as indexing out of bounds).
 
-  Basic
-  -----
-  add(string value)
-  get(int index);
-  indexOf(String value);
-
-
-  Intermediate (at least add, size + one of the other two)
-  ------------
-  add(int index,String value)
-  size()
-  toString()
-  toArray()
+Basic
+-----
+add(string value)
+get(int index);
+toString()
 
 
-  Challenge
-  --------
-  remove(int index);
+Intermediate (at least add, size + one of the other two)
+------------
+size()
+add(int index,String value)
+indexOf(String value);
+toArray()
+
+
+Challenge
+--------
+remove(int index);
 */
 
 public class LinkedList{
@@ -47,40 +47,22 @@ public class LinkedList{
   Returns the String in the node at location index.
   */
   public String get(int index){
-	return "";
+    return "";
   }
-
-  /**
-  returns the number of elements in the lsit
-  */
-  public int size(){
-	return 0;
-  }
-
-
-  /**
-  Returns the index (location) of the first node in the list
-  that contains value.
-
-  Example:
-  Given the list:
-  "a"->"b"->"c"->"d"->"e"
-  indexOf("d") would return 3 since "d" is at location 3.
-
-  */
-  public int indexOf(String value){
-	return 0;
-  }
-
-
 
   /**
   Return a string representation of the list
   */
   public String toString(){
-	return "";
+    return "";
   }
 
+  /**
+  returns the number of elements in the list
+  */
+  public int size(){
+    return 0;
+  }
 
 
 
@@ -104,6 +86,20 @@ public class LinkedList{
   }
 
 
+  /**
+  Returns the index (location) of the first node in the list
+  that contains value.
+
+  Example:
+  Given the list:
+  "a"->"b"->"c"->"d"->"e"
+  indexOf("d") would return 3 since "d" is at location 3.
+
+  */
+  public int indexOf(String value){
+    return 0;
+  }
+
 
   /**
   This routine should create a new array that is the same
@@ -123,7 +119,7 @@ public class LinkedList{
   Remove the Node at location index from the list.
 
   Ex:
-
+  
   Given the list:
   "a"->"b"->"c"->"d"->"e"
 
