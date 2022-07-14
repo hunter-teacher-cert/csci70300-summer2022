@@ -35,9 +35,9 @@ public class Node{
   public void setData(String data){
     this.data = data;
   }
-
-  public String setNext(Node next){
-    this.next = next;
+    
+    public void setNext(Node next){
+	this.next = next;
   }
 
   

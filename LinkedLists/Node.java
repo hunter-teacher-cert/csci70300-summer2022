@@ -30,20 +30,20 @@ public class Node{
     return next;
   }
 
+  // Setters
   
-  // setters 
   public void setData(String data){
     this.data = data;
   }
-
-  public void setNext(Node next){
-    this.next = next;
+    
+    public void setNext(Node next){
+	this.next = next;
   }
 
-  // toString 
+  
+  // toString
   
   public String toString(){
     return "" + data + "->";
   }
-
 }
