@@ -36,13 +36,13 @@ public class Driver{
 	// complete the program as per the following comments
 	// and compile and run your program again.
 
-	// Add a line to set the
-	// variable to the same node as
+	// Add a line to set a new Node type
+	// variable named walker to the same node as
 	// the variable front points to
 	
 	// Uncomment the next line, compile and run
 	// to test what you just added
-	System.out.println(walker.getData());
+	//System.out.println(walker.getData());
 
 	// Add the code necessary
 	// to set up a loop that
