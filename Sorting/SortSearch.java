@@ -84,7 +84,16 @@ public class SortSearch{
 
 
     /**
-       Implement the selection sort algorithm by sorting the ArrayList data in place.
+       Implement the selection sort algorithm by sorting the ArrayList
+       data in place.
+
+       Algorithm:
+       Loop a variable that represents the ArrayList index from
+       0 to the end of the ArrayList.
+         For each index, find the smallest from that Location
+	 to the end of the array and swap it with that index.
+
+	 
        
 
     */
