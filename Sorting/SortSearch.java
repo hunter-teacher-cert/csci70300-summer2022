@@ -62,7 +62,10 @@ public class SortSearch{
 
 
     /*
-      return the index of the ArrayList data from index start to the end
+      return the index of the smallest data idem from index start to the end
+      of the ArrayList. If there are multiple of the smallest value,
+      return any of them.
+      
       Example, if the arraylist has:
       5,3,10,6,8
       if start was 2 (start at index 2, value 10) then it woudl return 3 which is the index of the value
