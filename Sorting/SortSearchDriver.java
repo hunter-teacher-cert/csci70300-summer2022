@@ -17,7 +17,7 @@ public class SortSearchDriver {
 	// i = ss.findSmallestIndex(0);
 	// System.out.println("ss["+ i +"] = "+ss.get(i)+" : " + ss);
 
-	// i = sd2.findSmallestIndex(3);
+	// i = ss.findSmallestIndex(3);
 	// System.out.println("ss["+ i + "] = "+ss.get(i)+" : " + ss);
 	
 	// Uncomment these to test part 3
