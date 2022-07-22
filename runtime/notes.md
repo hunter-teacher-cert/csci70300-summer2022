@@ -6,7 +6,7 @@ https://towardsdatascience.com/essential-programming-time-complexity-a95bb2608ca
 
 https://blog.bitsrc.io/algorithms-efficiency-big-o-in-simple-english-adbaedbcdfcf
 
-Some resources will explain more than you need to know and be more confusing. 
+Some other google'd resources will explain more than you need to know and be more confusing...
 
 # Overall Idea
 
