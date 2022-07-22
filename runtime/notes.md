@@ -1,7 +1,10 @@
 # Outside Resources
 
-This article has an appropriate depth of content for what we are aiming for:
+Two alternate presentations of the content that have an appropriate depth of content:
+
 https://towardsdatascience.com/essential-programming-time-complexity-a95bb2608cac
+
+https://blog.bitsrc.io/algorithms-efficiency-big-o-in-simple-english-adbaedbcdfcf
 
 Some resources will explain more than you need to know and be more confusing. 
 
