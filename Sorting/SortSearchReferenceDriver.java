@@ -25,7 +25,13 @@ public class SortSearchReferenceDriver {
 	System.out.println("Size: " + size + " Time: " + elapsed);
 			   
 
-	      
+	ArrayList<Integer> a= ss.buildIncreasingList(20);
+	System.out.println(a);
+
+	// build a second Arralist here
+	
+
+	// test your merge routine here
 
     }
 }
