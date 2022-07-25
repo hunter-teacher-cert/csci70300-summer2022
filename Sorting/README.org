@@ -21,4 +21,5 @@ Check back when we cover this material
 
 * Part 3 - Advanced Sorting
 
-Check back when we cover this material
+1. Complete the merge routine as specified in class.
+2. Complete the mergesort routine as specified in class
