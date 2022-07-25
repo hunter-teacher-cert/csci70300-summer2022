@@ -31,7 +31,7 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 | Assignment                 | Concepts covered grade level earned for concept if completed |
 |----------------------------|--------------------------------------------------------------|
 | ArrayLists (Basic)         | B                                                            |
-| ArrayLists (Intermediate)  | A (only swapElements required for A, removeValue has been    |                                                 |                            | changed to Challenge level and is optional).                 |
+| ArrayLists (Intermediate)  | A (only swapElements required for A, removeValue has been    |                                                 |                    |                            | changed to Challenge level and is optional).                 |
 |----------------------------|--------------------------------------------------------------|
 | Pointer Assignment         | Required                                                     |
 |----------------------------|--------------------------------------------------------------|
@@ -40,16 +40,18 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 |----------------------------|--------------------------------------------------------------|
 | Sorting  (Basic)           | B-/B                                                         |
 | Sorting (Intermediate)     | B+                                                           |
-| Sorting (Advanced)         | A                                                            |
+| Sorting (Advanced)         | A (complete selection AND merge sort)                                                           |
 | Searching (Basic)          | B                                                            |
 | Searching (Intermediate)   | A                                                            |
 |----------------------------|--------------------------------------------------------------|
-| Merge sort                 | A - complete merge and mergeSort routines                    |
-|----------------------------|--------------------------------------------------------------|
 | Trees                      | TBD                                                          |
+|----------------------------|--------------------------------------------------------------|
+| Stacks and Queues          | B - Complete either  stack or queue implementation           |
+| Stacks and Queues          | A - Complete bothg stack and queue implementations           | 
 |----------------------------|--------------------------------------------------------------|
 | Hashing                    | TBD                                                          |
 |----------------------------|--------------------------------------------------------------|
+
 
 # Grading: 
 
