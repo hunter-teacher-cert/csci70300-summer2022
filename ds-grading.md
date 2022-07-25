@@ -44,6 +44,8 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 | Searching (Basic)          | B                                                            |
 | Searching (Intermediate)   | A                                                            |
 |----------------------------|--------------------------------------------------------------|
+| Merge sort                 | A - complete merge and mergeSort routines                    |
+|----------------------------|--------------------------------------------------------------|
 | Trees                      | TBD                                                          |
 |----------------------------|--------------------------------------------------------------|
 | Hashing                    | TBD                                                          |
