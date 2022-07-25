@@ -40,9 +40,9 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 |----------------------------|--------------------------------------------------------------|
 | Sorting  (Basic)           | B-/B                                                         |
 | Sorting (Intermediate)     | B+                                                           |
-| Sorting (Advanced)         | A (complete selection AND merge sort)                                                           |
-| Searching (Basic)          | B                                                            |
-| Searching (Intermediate)   | A                                                            |
+| Sorting (Advanced)         | A (complete selection AND merge sort)                        |
+| Searching (Basic)          | B (linear search)                                            |
+| Searching (Intermediate)   | A (binary search - recursive or non recursive)               |
 |----------------------------|--------------------------------------------------------------|
 | Trees                      | TBD                                                          |
 |----------------------------|--------------------------------------------------------------|
