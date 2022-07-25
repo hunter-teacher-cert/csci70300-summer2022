@@ -17,21 +17,25 @@ public class SortSearchReferenceDriver {
 		
 	long start,elapsed;
 
-	start = System.currentTimeMillis();
-	ss.sort();
+	// start = System.currentTimeMillis();
+	// ss.sort();
 
 	// System.out.println(ss);
-	elapsed = System.currentTimeMillis() - start;
-	System.out.println("Size: " + size + " Time: " + elapsed);
+	// elapsed = System.currentTimeMillis() - start;
+	// System.out.println("Size: " + size + " Time: " + elapsed);
 			   
 
-	ArrayList<Integer> a= ss.buildIncreasingList(20);
-	System.out.println(a);
-
-	// build a second Arralist here
+	ArrayList<Integer> list1= ss.buildIncreasingList(5);
+	System.out.println(list1);
 	
 
-	// test your merge routine here
+	// build a second Arralist here
+	ArrayList<Integer> list2= ss.buildIncreasingList(15);
+	System.out.println(list2);
+
+	ArrayList<Integer> result = ss.merge(list1,list2);
+	System.out.println(result);
+	
 
     }
 }

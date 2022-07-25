@@ -234,10 +234,47 @@ public class SortSearchReference{
        
     public ArrayList<Integer> merge(ArrayList<Integer> list1,
 				    ArrayList<Integer> list2){
+	ArrayList<Integer> merged = new ArrayList<Integer>();
 
-	// code for merge
+	// keep looking at the first items of list1 and list2
+	// taking the smaller for result
+	// until we're done.
+
+	while(list1.size()>0 && list2.size()>0){
+	    if (list1.get(0) < list2.get(0)){
+		// copy list1's fist to merged
+		// and remove it from list1
+		merged.add(list1.get(0));
+		list1.remove(0);
+			   
+	    } else {
+		// copy list2's first to merged
+		// and remove it from list2
+		merged.add(list2.get(0));
+		list2.remove(0);
+	    }
+	    
+	}
+
+	// At this point, list1 or list2 will be empty
+	// but the OTHER one will have one or more
+	// items to copy.
+
+	// this will be true until
+	// list one is empty
+	while (list1.size()>0){
+	    merged.add(list1.get(0));
+	    list1.remove(0);
+	}
+
+	// this will be true until
+	// list two is empty
+	while (list2.size() > 0){
+	    merged.add(list2.get(0));
+	    list2.remove(0);
+	}
 	
-	return new ArrayList<Integer>(); // replace this line
+	return merged;
     }
 
     
