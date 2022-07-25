@@ -1,0 +1,71 @@
+* Stacks and Queues
+
+* Location: ds/stacksqueues
+* Getting started
+
+Copy the .java files from this directory to ds/stacksqueues in your
+repository.
+
+Note: You might have to create or copy additional files to your repo
+depending on which parts of the assignment you complete.
+
+
+* Grading:
+
+To earn a B, you must complete either a stack implementation or a
+queue implementation.
+
+To earn an A you must complete both a stack and a queue
+implementation.
+
+* Specifications
+
+You are to implement either the Stack, the Queue, or both. Make sure
+to put appropriate code in your Driver.java to test your
+implementation and to show that all the required functionality work.
+
+You can implement your stack and/or queue in any way you want.
+
+You can use any of the following to store your data:
+
+- A linked list that you build out of Node
+- Your LinkedList class
+- An array
+- An ArrayList
+
+Make sure to include a comment in your Stack.java or Queue.java
+class files where you explain your decision on what to use to store
+the data.
+
+Your stack/queue should store int or Integer data.  
+
+** Stack
+
+Recall, a stack is a Last In First Out structure.
+
+You should implement the following methods
+
+- A constructor with no parameters
+- void push(int value) - add value to the top of the stack
+- int pop() - remove and return the top value from the stack
+- int top() - return but do not remove the top value from the stack
+- boolean isEmpty() - return true of the stack is empty, false otherwise
+- int size() - return the number of elements currently in the stack
+- boolean isFull() - returns true if the stack is full, false
+  otherwise - only implement this if you use an array for implementation
+
+** Queue
+
+Recall, a queue is a First In First Out structure.
+
+You should implement the following methods
+
+- A constructor with no parameters
+- void enqueue(int value) - add value to the end of the queue
+- int dequeue() - remove and return the top value from front of the queue
+- int front() - return but do not remove the top value from the front
+  of the queue
+- boolean isEmpty() - return true of the queue is empty, false otherwise
+- int size() - return the number of elements currently in the queue
+- boolean isFull() - returns true if the queue is full, false
+  otherwise - only implement this if you use an array for implementation
