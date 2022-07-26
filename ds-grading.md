@@ -44,12 +44,14 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 | Searching (Basic)          | B (linear search)                                            |
 | Searching (Intermediate)   | A (binary search - recursive or non recursive)               |
 |----------------------------|--------------------------------------------------------------|
-| Trees                      | TBD                                                          |
+| Trees                      | B : Diagram and annotate the toString                        |
+|                            | A : Completed both toString() and evaluate()                 | 
 |----------------------------|--------------------------------------------------------------|
 | Stacks and Queues          | B : Complete either  stack or queue implementation           |
-| Stacks and Queues          | A : Complete bothg stack and queue implementations           | 
+| Stacks and Queues          | A : Complete both stack and queue implementations           | 
 |----------------------------|--------------------------------------------------------------|
-| Data Structure Design      | A : a reasonable description of a reasonable data struture   |                           | Challenge                  |     design                                                   |
+| Data Structure Design      | A : a reasonable description of a reasonable data struture   |    
+| Challenge                  |     design                                                   |
 |----------------------------|--------------------------------------------------------------|
 
 
