@@ -36,7 +36,7 @@ We will be working with a variation on a binary tree. Instead of all the nodes b
 ## We will define an ExpressionTree to be a special binary tree that represents an arithmetic expression.
 
 
-1. The values and calculations will always be double, so we don't have integer division, and we cannot store booleans/Strings/char etc.
+1. The values and calculations will always be using the Java type double, so we don't have integer division, and we cannot store booleans/Strings/char etc.
 
 2. An ExpressionTree has 0 or 2 children.
 
