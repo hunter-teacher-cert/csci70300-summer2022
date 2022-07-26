@@ -46,10 +46,10 @@ B- or B+ on loops for completing Nim.  However, if you complete another assignme
 |----------------------------|--------------------------------------------------------------|
 | Trees                      | TBD                                                          |
 |----------------------------|--------------------------------------------------------------|
-| Stacks and Queues          | B - Complete either  stack or queue implementation           |
-| Stacks and Queues          | A - Complete bothg stack and queue implementations           | 
+| Stacks and Queues          | B : Complete either  stack or queue implementation           |
+| Stacks and Queues          | A : Complete bothg stack and queue implementations           | 
 |----------------------------|--------------------------------------------------------------|
-| Hashing                    | TBD                                                          |
+| Data Structure Design      | A : a reasonable description of a reasonable data struture   |                           | Challenge                  |     design                                                   |
 |----------------------------|--------------------------------------------------------------|
 
 
