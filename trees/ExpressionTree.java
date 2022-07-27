@@ -42,7 +42,7 @@ public class ExpressionTree{
   }
 
   //Return true when the node is a value, false when it is an operator
-  //when the children are null, the current tree is an operator
+  //when the children are null, the current tree is value
   private boolean isValue(){
     return left==null && right ==null;
   }
