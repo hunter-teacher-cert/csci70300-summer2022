@@ -53,6 +53,7 @@ You should implement the following methods
 - int size() - return the number of elements currently in the stack
 - boolean isFull() - returns true if the stack is full, false
   otherwise - only implement this if you use an array for implementation
+- toString() - return a string with all the data in the stack
 
 ** Queue
 
@@ -69,3 +70,4 @@ You should implement the following methods
 - int size() - return the number of elements currently in the queue
 - boolean isFull() - returns true if the queue is full, false
   otherwise - only implement this if you use an array for implementation
+- toString() - return a string with all the data in the stack
