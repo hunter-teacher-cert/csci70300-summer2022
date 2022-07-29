@@ -5,6 +5,8 @@
 Upload a file, preferably text or pdf but you can upload a doc file if it's
 easier to  a directory named ds/ds_design in your repo. 
 
+The file should be named design.pdf, design.md, etc. You can add supplemental files if you wish and they can have any name.
+
 That document should describe your data structure. It can include
 text, images, UML or other diagrams, class specifications or anything
 else. Also discuss the run time for the key operations specified in
