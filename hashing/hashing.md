@@ -39,11 +39,15 @@ Putting this together we can use the hash function on names, to find the slot in
 <img src="hashtableNoCollisions.png">
 
 
+
 # Until we have collisions
 
 This utopian idea breaks down very quickly when we have too many values, because there will always be a chance that your hashcode matches the hashcode of another item.
 
-When two keys map to the same hashcode (thus slot in the array), we have a collision. This requires we come up with a way to handle collisions without slowing down the data structure
+When two keys map to the same hashcode (thus slot in the array), we have a collision. This requires we come up with a way to handle collisions without slowing down the data structure too much.
+
+Note that as the density of values in the hashtable increases (we add more values and have fewer empty slots) the probability is higher that we have a collision. It is a good idea to have a hashtable that has much more space than number of elements we want to store.
+
 
 # Open Addressing
 
@@ -61,8 +65,16 @@ An alternate and often faster method is to use a list data structure to store th
 
 If Jack and Andrew both go into the same slot, then we just place BOTH in that slot. The runtime to look at all of the elements in a given slot is linear with respect to the number of collisions in that slot, which will be very small on average. [  O(number of collision in that slot) ]
 
+While this is slower, it is only a significant impact when you have many collisions.
+
 <img src="CollisionWithChaining1.png">
 
 <hr>
 
 <img src="CollisionWithChaining2.png">
+
+# Choosing a hash function
+
+It is non-trivial to come up with a good hash function. The ideal is that our function has a uniform distribution (equal probability for each slot) but this is not always easy to achieve.
+
+If your hash function is not optimal, it can lower the efficiency of your hashtable. The more collisions you have the slower your table will be.
